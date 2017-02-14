@@ -22,6 +22,8 @@ public class RemoteDroidServer {
 	private static String line;
 	private static boolean isConnected=true;
 	private static Robot robot;
+	
+	// This is a default port. Keep it same for both the client side and server side. 
 	private static final int SERVER_PORT = 8998;
  
 	public static void main(String[] args) {
